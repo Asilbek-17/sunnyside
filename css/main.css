@@ -422,7 +422,7 @@ body{
 }
 
 .ice {
-  min-width: 375px;
+  min-width: 325px;
   height: 375px;
   margin: 0 auto;
   margin-top: 86px;
@@ -483,6 +483,11 @@ body{
   margin-left: 0;
 }
 
+.social__link {
+  color: #2C7566;
+  transition: .4s;
+}
+
 @media (min-width: 400px) {
   .site-header {
     background-size: 440px 538px;
@@ -519,6 +524,11 @@ body{
     min-width: 400px;
     height: 400px;
     background-size: cover;
+  }
+
+  .social__link {
+    color: #2C7566;
+    transition: .4s;
   }
 }
 
@@ -557,6 +567,11 @@ body{
 
   .ice {
     height: 500px;
+  }
+
+  .social__link {
+    color: #2C7566;
+    transition: .4s;
   }
 }
 
@@ -633,6 +648,11 @@ body{
     height: 600px;
     background-size: cover;
   }
+
+  .social__link {
+    color: #2C7566;
+    transition: .4s;
+  }
 }
 
 @media (min-width: 720px) {
@@ -702,6 +722,11 @@ body{
   .ice {
     height: 700px;
   }
+
+  .social__link {
+    color: #2C7566;
+    transition: .4s;
+  }
 }
 
 @media (min-width: 800px) {
@@ -721,6 +746,10 @@ body{
     min-width: 400px;
     background-position: right center;
     background-size: 350px 320px;
+  }
+  .social__link {
+    color: #2C7566;
+    transition: .4s;
   }
 }
 
@@ -749,6 +778,10 @@ body{
 
   .ice {
     height: 950px;
+  }
+  .social__link {
+    color: #2C7566;
+    transition: .4s;
   }
 }
 
@@ -785,14 +818,25 @@ body{
   }
 
   .ice {
-    width: 1000px;
+    min-width: 1000px;
     height: 400px;
+    margin: 0;
+    margin-right: 0;
     background-image: url("../images/ice-desktop.png");
     background-size: cover;
+  }
+  .social__link {
+    color: #2C7566;
+    transition: .4s;
   }
 }
 
 @media (min-width: 1100px) {
+  .site-header {
+    min-width: 1100px;
+  }
+
+
   .graphic__box {
     height: 600px;
   }
@@ -800,11 +844,24 @@ body{
   .ice {
     width: 1100px;
   }
+  .social__link {
+    color: #2C7566;
+    transition: .4s;
+  }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1200px) {
+  .site-header {
+    min-width: 1200px;
+    background-size: cover;
+  }
+
   .ice {
     width: 1200px;
+  }
+  .social__link {
+    color: #2C7566;
+    transition: .4s;
   }
 }
 
@@ -859,10 +916,6 @@ body{
     margin-top: 100px;
   }
   
-  .hero__list {
-    justify-content: center;
-  }
-  
   .hero__item {
     padding-top: 158px;
     padding-bottom: 158px;
@@ -874,7 +927,7 @@ body{
   }
   
   .hero__item:nth-child(1) {
-    width: 710px;
+    width: 715px;
     height: 600px;
     background-image: url("../images/egg.png");
     background-position: left center;
