@@ -402,7 +402,7 @@ body{
   }
 }
 
-@media (min-width: 720px) {
+@media (min-width: 800px) {
   .site-header {
     min-width: 800px;
     background-image: url("../images/hero-bg.png");
@@ -491,12 +491,8 @@ body{
     margin-bottom: 0;
   }
 
-  .row-reverse {
-    display: flex;
-    align-items: center;
-  }
 
-  .row-reverse .hero__item:nth-child(1) {
+   .hero__item:nth-child(1) {
     width: 710px;
     height: 600px;
     background-image: url("../images/pink.png");
