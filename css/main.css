@@ -492,7 +492,7 @@ body{
   }
 
 
-   .hero__item:nth-child(1) {
+   .hero__item:nth-child(3) {
     width: 710px;
     height: 600px;
     background-image: url("../images/pink.png");
